@@ -1,0 +1,130 @@
+// CHANGE LOG
+// DOCUMENTING CHANGES AND REASONS FOR CHANGES
+// ALSO DOCUMENTING SHORTCOMINGS OF EACH ITERATION
+// ADDED SMALL NOTES TO UNDERSTAND THOUGHT PROCESS
+
+
+
+// REV 1
+
++ more ergonomic
++ dedicated esc / grave key
++ decent form factor
+
+- not symmetrical
+- shift kind of far
+- spacebar positioning slightly uncomfortable
+- a few too many empty keys (undecided how to hit those [like what fingers] and what to put there)
+
+* first pass at 60% ergo non split
+* modeled after TGR Alice slightly
+
+
+
+// REV 2
+
++ removed right side extra column for symmetry -- also moves shift closer
+
+- don't like how the MO(1) and Enter keys are so far away, very hard to hit
+- also don't like the thumb keys in general are hard to hit
+- q and p are hard to hit with pinky -- in general pinky keys slightly out of reach
+
+
+
+// REV 3
+
++ addresses hard to reach pinky keys by lowering pinky columns
++ pinky columns in home position are also tilted now
++ angle of tilt is 12 degrees
++ thumb clusters are tilted as well to give better ergonomics for thumb
++ alt extended to 1.5u instead of 1u (for larger surface area for thumb to hit [chose 1.5u for keycap compatibility])
+
+- thumb ctrl is hard to reach, probably swap for where alt is
+- don't like how chording enter + space or MO(1) + backspace would be very difficult (for later potential stenography implementation)
+- ctrl key position hard to reach in general, may remove ???
+- pinky ctrl keys are still hard to reach
+- oops, the j and l keys swapped in key placing
+
+* of note, the main thumb keys have to be stabilized as it is, don't know if that will come into play later
+* also noteworthy, a few design considerations will be based upon potential stenography usage, mainly how easy it is to chord thumb cluster keys
+* as it stands, the keyboard form factor is also a consideration, but later revisions may not take that into account (going for a "flatter" wider and less tall shape [middle part has small protrusion -- to be expected and welcomed])
+
+
+
+// REV 4
+
++ thumb ctrl is in accessible spot
++ ctrl + alt chording for key combinations such as ctrl + alt + shift + r for OBS record shortcut
++ pinky ctrl keys moved in, now space for additional key on the outside (infrequent use key)
+
+- still don't like the alt key position, seems very hard to reach
+- ambiguous use of the keys underneath x, c, <, and > keys. don't want to remove for form factor sake, but not really sure what to do with them yet
+- keycaps call for 4 1.5u keys which is not easily attainable from a full size set
+
+
+
+// REV 5
+
++ got rid of the two many 1.5u keys issue (now only 2 being used)
++ only 4 2u keys in use, meaning it's possible to use only a full size set for this board
++ chording of keys is very easy now (MO(1) + ctrl on left, enter + ctrl on right)
++ more thumb keys in use, mostly pretty accessible
++ just remembered that 1.25u keys are a thing, now 6 in use (out of 7 on full size set), all on thumb keys
++ all thumb keys are curved in a slight arc towards thumb
+
+- not really sure what to do with the key on top of the vertical 1.25u
+- duplicate ctrl keys on left side, not really sure what to think about that yet
+
+* ideaology shift: thumb resting position should be more outward (relative to center of keyboard, inward if you are thinking relative to palm)
+* more thumb keys used now, not sure if that is good or bad
+* honestly way too many keys, don't feel like there's a need for that many, but it helps the form factor so :shrug:
+
+
+
+// REV 6
+
++ middle finger column in line with ring and pointer finger column (better for games and numpad compatibility)
++ button underneath x and > keys switched to left and right windows key respectively
++ button on top of MO(1) switched to m (for games, m is usually map)
+
+* this allows for esdf to comfortably be default position for games
+
+
+
+// REV 7
+
++ pointer finger row raised a little because it's not a 0.25u difference from pointer homerow to one row over
++ thumb cluster second row shifted upwards to make overall form factor smaller (less of an angle in the case)
++ split right side caps and tab into 2 keys to allow for more layer keys (also keeps symmetry between left and right sides)
++ thumb cluster angle changed to match the pointer column change
+
+- second row keys might be harder to reach now
+- caps and tab will no longer "feel" like big keys, could be hard to get used to
+
+
+
+// REV 8
+
++ just staggered the middle finger columns, but not by a whole 0.25u
+
+* might make resting position for games (esdf) slightly more uncomfortable??? honestly not too much of a downside, it seems positive overall
+
+
+
+// REV 9
+
++ shifted positions to prevent interference between caps with square corners (makes tolerances slightly higher; previously aligned based on rounded corners)
++ because of the slight shifts to prevent interference, angle of thumb cluster was decreased by 0.5u
++ added One Shot Layer key to left thumb cluster (easy access to fn keys)
++ added tab to right thumb cluster (to fix uncomfortable ring finger/pinky finger tab placement)
+
+- widens overall keyboard with very slightly
+- increases gap between angled keys and non angled keys (necessary to prevent interference, but slightly harder for fingers to reach)
+
+* midline of keyboard should be 9.5u
+
+
+
+// NOTE
+
+* numbers get weird small decimal places, might make a tool to correct those
