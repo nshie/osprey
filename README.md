@@ -9,7 +9,7 @@ This board is very much a prototype, and I would not recommend using the files w
 ### Features:
 - ergonomic wrist angle
 - ortholinear columnar-stagger
-- 60% form factor (~ish)
+- 60% layout (~ish)
 - thumb clusters for modifiers and chording
 - kailh hotswap sockets
 - USB-C
