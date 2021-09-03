@@ -15,5 +15,5 @@ This board is very much a prototype, and I would not recommend using the files w
 - USB-C
 
 ### Features to change:
-- leds in the pcb are not properly implemented with capacitors, would not recommend building this board with the leds
+- leds in the pcb are not properly implemented with capacitors, WOULD NOT recommend building this board with the leds
 - pcb uses 0805 diode pads; might have some difficulty finding them (0603 will work on the pcb)
