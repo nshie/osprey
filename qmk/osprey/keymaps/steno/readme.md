@@ -1,0 +1,1 @@
+# osprey stenography keymap for plover using GeminiPR protocol
